@@ -1,11 +1,11 @@
-# StadiaBTFW
-Google Stadia Controller Bluetooth Firmware Dump.
+# StadiaFW
+Another Google Stadia Bluetooth and Wi-Fi firmware dump. </br>
 
-`Bruce` and `Flashloader` Bins found via: https://stadia.google.com/controller/app_combined.js  </br>
-SHA512 Checksums included, verify via `sha512 -c "File Name"`  </br>
+So, Google did something right in the unfortunate shutdown of Stadia. They released a bluetooth low-energy firmware update for the controllers! That means less e-waste! However, there's a caveat, the tool will be shutdown *eventually*, December 31st, 2023. 
 
-`gotham_dev:"gotham_dvt_a_dev_signed.bin",gotham_dvt:"gotham_dvt_a_stage_signed.bin",gotham_pvt:"gotham_pvt_a_prod_signed.bin"}`  </br>
-I had no luck obtaining these "gotham" (Wi-Fi) bins, sorry. In the meantime, I did find links for ota gotham bins.  </br>
-cc:// </br>
-`https://edgedl.me.gvt1.com/edgedl/googletv-eureka/stable-channel/ota.282115.stable-channel.gotham-pvt-a.214f6fe20f7b993046c77a9245c5805b056882dc.bin`  </br>
-`http://edgedl.me.gvt1.com/edgedl/googletv-eureka/stable-channel/ota.316382.stable-channel.gotham-pvt-b.da986392604309ea67eab5fa84f747e955f2875c.bin`
+While sure, they've released a tool in the first place, we need to preserve these files. Contained in this dump are the `bruce` (bluetooth) and `flashloader` bins. Unfortunately during my venture I was **not** able to obtain the `gotham` (wi-fi) dvt & prod bins. In the meantime, hwoever, I had found links for o.t.a. gotham bins. All of these bins (excluding the gotham bins) were found via:  </br>
+https://stadia.google.com/controller/app_combined.js  </br>
+
+Gotham bins obtained via these links:  </br>
+https://edgedl.me.gvt1.com/edgedl/googletv-eureka/stable-channel/ota.282115.stable-channel.gotham-pvt-a.214f6fe20f7b993046c77a9245c5805b056882dc.bin  </br>
+http://edgedl.me.gvt1.com/edgedl/googletv-eureka/stable-channel/ota.316382.stable-channel.gotham-pvt-b.da986392604309ea67eab5fa84f747e955f2875c.bin  </br>
