@@ -1,9 +1,14 @@
 # StadiaFW
 Another Google Stadia Bluetooth and Wi-Fi firmware dump. </br>
 
-So, Google did something right in the unfortunate shutdown of Stadia. They released a bluetooth low-energy firmware update for the controllers! That means less e-waste! However, there's a caveat, the tool will be shutdown *eventually*, December 31st, 2023. 
+So, Google did something right in the unfortunate shutdown of Stadia. </br>
+They released a bluetooth low-energy firmware update for the controllers! That means less e-waste! <br> However, there's a caveat, the tool will be shutdown *eventually*, December 31st, 2023. <br>
 
-While sure, they've released a tool in the first place, we need to preserve these files. Contained in this dump are the `bruce` (bluetooth) and `flashloader` bins. Unfortunately during my venture I was **not** able to obtain the `gotham` (wi-fi) dvt & prod bins. In the meantime, hwoever, I had found links for o.t.a. gotham bins. All of these bins (excluding the gotham bins) were found via:  </br>
+While sure, they've released a tool in the first place, we need to preserve these files. <br>
+Contained in this dump are the `bruce` (bluetooth) and `flashloader` bins. <br>
+Unfortunately, during my venture I was **not** able to obtain the `gotham` (wi-fi) dvt & prod bins. <br>
+In the meantime, however, I had found links for o.t.a. gotham bins. <br>
+All of these bins (excluding the gotham bins) were found via:  </br>
 https://stadia.google.com/controller/app_combined.js  </br>
 
 Gotham bins obtained via these links:  </br>
