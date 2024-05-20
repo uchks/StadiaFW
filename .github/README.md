@@ -16,3 +16,5 @@ Nonetheless, I have located OTA links for the `gotham` binaries.
 - `Gotham` OTA bins were obtained from the following URLs:
   - [Gotham Bin A](https://edgedl.me.gvt1.com/edgedl/googletv-eureka/stable-channel/ota.282115.stable-channel.gotham-pvt-a.214f6fe20f7b993046c77a9245c5805b056882dc.bin)
   - [Gotham Bin B](http://edgedl.me.gvt1.com/edgedl/googletv-eureka/stable-channel/ota.316382.stable-channel.gotham-pvt-b.da986392604309ea67eab5fa84f747e955f2875c.bin)  
+
+#### HID Descriptors: [**@DJm00n/ControllersInfo**](https://github.com/DJm00n/ControllersInfo/tree/master/stadiacontroller)
